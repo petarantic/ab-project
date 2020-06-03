@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset='utf-8'>
+	<meta name="viewport" content='width=device=width, initial-scale=1'>  
+	<title>Fast food AB</title>
+	<link rel='stylesheet' href='main.css'>	
+	<link rel='stylesheet' href='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' integrity='sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh' crossorigin='anonymous'>
+	<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+	<link rel='shortcut icon' href='logo.png'>
+</head>
+<body>
+	<section class='section_1 container-fluid p-0'>
+		<div class='d-flex flex-column'>
+	<!-- Header -->
+	<nav class='navbar navbar-expand-lg navbar-dark bg-dark sticky-top'>
+		<div class='container'>
+	  		<a class='navbar-brand' href='#'>
+	  			<img src='logo.png' id='logo' style='height:20px; display: inline-block;'>
+	  			<span style='display: inline-block;'>Fast Food AB</span>
+	  		</a>
+	  		<ul class='nav'>
+			  	<li class='nav-item dropdown'>
+			    	<a class='nav-link dropdown-toggle' data-toggle='dropdown' href='#'>Meni</a>
+			    	<div class='dropdown-menu'>
+                		<a href='#' class='dropdown-item'>Meni hrane</a>
+                		<a href='#' class='dropdown-item'>AB obrok</a>
+                	</div>
+			  	</li>
+			  	<li class='nav-item'>
+			   		 <a class='nav-link' href='#'>Lokacija</a>
+			  	</li>
+			  	<li class='nav-item'>
+			    	<a class='nav-link' href='#footer'>Kontakt</a>
+			 	</li>
+			</ul>
+	  	</div>
+	</nav>
+	<div class="box">
+    	<div class='container-fluid bg-warning'>
+    		<div id="menu-img">
+    			<img src="menu3.png">
+    		</div>
+    		<div>
+    			<div class='row'>
+    				<div class='col-md-3' id='product'>
+    					<img class='thumbnail' src='menu-img/edit/hamburger.jpg'>
+    					<a href='' id="caption">Hamburger</a>
+    				</div>	
+					<div class='col-md-3' id='product'>	
+						<img class='thumbnail' src='menu-img/edit/cheeseburger.jpg'>
+						<a href='' id="caption">Cheeseburger</a>
+					</div>	
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/pilecibatak.jpg'>
+						<a href='' id="caption">Pileći batak</a>
+					</div>
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/pilecifile.jpg'>			
+						<a href='' id="caption">Pileće belo</a>
+					</div>	
+				</div>
+				<div class='row'>
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/pohovanapiletina.jpg'>
+    					<a href='' id="caption">Pohovana piletina</a>
+					</div>	
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/ribafileti.jpg'>
+						<a href='' id="caption">Sendvič riba fileti</a>
+					</div>	
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/sunkakackavalj.jpg'>
+						<a href='' id="caption">Lepinja šunka kačkavalj</a>
+					</div>
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/kulenkackavalj.jpg'>
+						<a href='' id="caption">Lepinja kulen kačkavalj</a>
+					</div>
+				</div>	
+				<div class='row'>
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/pecenicakackavalj.jpg'>
+						<a href='' id="caption">Lepinja pečenica kačkavalj</a>
+					</div>	
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/sunkajaje.jpg'>
+						<a href='' id="caption">Lepinja šunka jaje</a>
+					</div>	
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/pomfrit.jpg'>
+						<a href='' id="caption">Pomfrit</a>
+					</div>	
+					<div class='col-md-3' id='product'>
+						<img class='thumbnail' src='menu-img/edit/pizza.jpg'>
+						<a href='' id="caption">Pizza</a>
+					</div>
+				</div>
+			</div>	
+    	</div>
+    </div>
+    <div class="box2" style="display: none">
+    	<div class="container" id="product-info">
+    		<h1>Ime prozivoda:</h1>
+    		<img src="">
+    		<span>Cena:</span>
+    	</div>
+    </div>
+	<!-- Footer -->
+    <footer class='site-footer bg-dark'>
+      <div class='container'>
+        <div class='row'>
+          <div class='location_info col-md-6 col-sm-push'>
+          		<div class='d-flex flex-column'>
+      				<div class='p-1'><img src='location-logo.png' style='height:45px; width:35px;'></div>
+  					<div class='p-1'>Majakovskog 7</div>
+          			<div class='p-2'>	
+          				<iframe src='https://maps.google.com/maps?q=Niš+Majakovskog+7&t=&z=13&ie=UTF8&iwloc=&output=embed' frameborder='0' style='border:0' allowfullscreen></iframe>
+  					</div>
+          		</div>
+          </div>
+          <div class='delivery_info col-md-6 col-sm-pull'>
+          		<div class='float-left'> 
+        		<h1>NARUČI I POKUPI</h1>
+        		<p style='font-size: 40px'>063 70 10 247<br>069 120 3700</p>
+        		</div>
+                <img class='float-right' src='delivery-logo3.png' style='height:150px; width:150px;'>	
+          </div>
+        </div>
+      </div>
+	</footer>
+	</div>
+	</section>
+	<script src='main.js'></script>
+	<script src='https://code.jquery.com/jquery-3.4.1.slim.min.js' integrity='sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n'crossorigin='anonymous'></script>
+	<script src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js' integrity='sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo' crossorigin='anonymous'></script>
+	<script src='https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js' integrity='sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6' crossorigin='anonymous'></script>
+</body>
+</html>
