@@ -28,14 +28,6 @@ nav > div > ul > li > .dropdown-menu a{
 	color: #dc3545;
 }
 
-
-
-
-
-
-
-
-
 #menu-logo {
 	height: 500px;
 	width: 500px;
@@ -44,7 +36,7 @@ nav > div > ul > li > .dropdown-menu a{
   	margin-right: auto;
 }
 
-#product {
+.product {
 	display: inline-block;
     text-align: center;
 }
@@ -54,17 +46,9 @@ nav > div > ul > li > .dropdown-menu a{
 	padding: 10px;
 }
 
-#caption {
+.caption {
 	display: block;
 }
-
-
-
-
-
-
-
-
 
 footer {
     color: #dc3545;
