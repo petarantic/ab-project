@@ -97,3 +97,16 @@ footer {
 .b-1 {
 	border: 1px solid black;
 }
+
+.hide {
+	display: none;
+}
+
+.show {
+	display: block;
+}
+
+#captionInfo {
+	padding-bottom: 10px;
+	padding-top: 10px;
+}

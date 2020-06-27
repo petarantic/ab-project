@@ -13,7 +13,7 @@
 	<!-- Header -->
 	<nav class='navbar navbar-expand-lg navbar-dark bg-dark sticky-top'>
 		<div class='container'>
-	  		<a class='navbar-brand' href='#'>
+	  		<a class='navbar-brand' href='index.html'>
 	  			<img src='logo.png' id='logo' style='height:20px; display: inline-block;'>
 	  			<span style='display: inline-block;'>Fast Food AB</span>
 	  		</a>
@@ -29,7 +29,7 @@
 			   		 <a class='nav-link' href='#'>Lokacija</a>
 			  	</li>
 			  	<li class='nav-item'>
-			    	<a class='nav-link' href='#footer'>Kontakt</a>
+			    	<a class='nav-link' href='footer'>Kontakt</a>
 			 	</li>
 			</ul>
 	  	</div>
@@ -39,18 +39,33 @@
     		<div id="menu-img">
     			<img src="menu3.png">
     		</div>
-    		<div class="allProducts">
+    		<div id="allProducts">
 
 			</div>	
     	</div>
     </div>
-    <div class="box2" style="display: none">
-    	<div class="container" id="product-info">
-    		<h1>Ime prozivoda:</h1>
-    		<img src="">
-    		<span>Cena:</span>
+    <div class="box2 hide">
+    	<div class="container-fluid bg-warning text-center">
+
     	</div>
     </div>
+  <!-- Modal -->
+  <div class="modal fade" id="myModal">
+    <div class="modal-dialog modal-md">
+      <div class="modal-content">
+      <div class="modal-header bg-dark text-danger">
+          <h2 id="captionTitle"></h2>
+      </div>
+        <div id="captionInfo">
+            
+        </div>
+      <div class="modal-footer bg-dark">
+          <input class="btn btn-warning" data-dismiss="modal" value="Close">
+      </div>
+      </div>
+
+    </div>
+  </div>
 	<!-- Footer -->
     <footer class='site-footer bg-dark'>
       <div class='container'>
